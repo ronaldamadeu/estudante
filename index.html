@@ -1,1 +1,78 @@
-asdsasda
+
+ 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>QR CODE</title>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="//assets.locaweb.com.br/locastyle/2.0.6/stylesheets/locastyle.css">	
+		<link href="../../css/sweetalert2.min.css" rel="stylesheet" type="text/css">		
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/icon" href="/images/favicon-.png"/>
+	</head>
+	
+<body>
+
+
+
+
+			<div class="container">
+			<center>
+			<br><br>
+		
+		<script>
+		document.addEventListener('DOMContentLoaded', function(){
+	Swal.fire({
+		  title: 'Carteirinha Válida',
+		  icon: 'success',
+		  background: '#cfc',
+		  html: 'ALUNO : <BR><b>Felipe Oliveira</b><br><br>Validade: <b>31/03/4</b><br><br>RG: <b>35607251-4</b><br><br><i>Documento conferido pela Unidade de Pós-Graduação do Centro Paula Souza.</i>',
+		  showCancelButton: false,
+		  confirmButtonColor: '#0b0',
+		  cancelButtonColor: '#d33',
+		  confirmButtonText: 'IR PARA O SITE',
+		  cancelButtonText: 'Não',
+		  cancelButtonColor: '#DD6B55',
+
+					}).then((result) => 	{
+			  if (result.value) {  
+				  window.open('http://www.pos.cps.sp.gov.br/');
+								}
+									})
+		});
+</script>			
+		<br><br><br><br><br>
+			<a href="http://www.pos.cps.sp.gov.br/"><button  class="btn btn-danger btn-md" >Site</button></a>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+ window.close();
+}
+</script>
+			</center>
+			<br><br>
+			</div>
+<!-- Javascript Files -->
+
+    <!-- initialize jQuery Library -->
+    <script src="../js/jquery-2.2.4.min.js"></script>
+  
+    <!-- for Bootstrap js -->
+<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script> 
+  
+    <!-- Custom js-->
+    <script src="../js/custom.js"></script>
+	
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="../js/bootstrap-toggle.js"></script>
+</body>
+</html>
